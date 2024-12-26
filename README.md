@@ -33,21 +33,10 @@ This Symfony service is designed to consume an external API to retrieve applicat
     STORAGE_PATH="public/documents"
     ```
 
-## Deployment
+    Please ensure that the backend API is accessible, or modify the API endpoint if necessary.
 
-1. Build the production version of the app:
+4. Run the command:
+    Please run the command to retrieve all documents from the API and store them locally.
     ```
-    npm run build
+    php bin/console get:documents
     ```
-
-2. Deploy to your preferred hosting service.
-
-## API Integration
-
-This app fetches the list of applications from the following endpoint:
-
-```
-GET https://educhain.free.beeceptor.com/applications
-```
-
-Please ensure that the backend API is accessible, or modify the API endpoint if necessary.
