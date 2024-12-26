@@ -36,6 +36,7 @@ This Symfony service is designed to consume an external API to retrieve applicat
     Please ensure that the backend API is accessible, or modify the API endpoint if necessary.
 
 4. Run the command:
+   
     Please run the command to retrieve all documents from the API and store them locally.
     ```
     php bin/console get:documents
